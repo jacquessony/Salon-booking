@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Appointment Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Nandie and Sony</h1>
+    <p>Book your appointment easily</p>
+  </header>
+
+  <main>
+    <!-- Services -->
+    <section class="services">
+      <h2>Our Services</h2>
+
+      <h3>Core Hair Services</h3>
+      <ul>
+        <li><strong>Women’s Cuts:</strong> Shaping and texturizing, includes shampoo & blow-dry</li>
+        <li><strong>Men’s Cuts:</strong> Basic cut with shampoo & styling</li>
+        <li><strong>Children’s Cuts:</strong> Special kids’ haircut</li>
+      </ul>
+
+      <h3>Hair Coloring</h3>
+      <ul>
+        <li>Single Process Color</li>
+        <li>Highlights</li>
+        <li>Balayage / Ombre</li>
+      </ul>
+
+      <h3>Styling Services</h3>
+      <ul>
+        <li>Blowouts</li>
+        <li>Updos</li>
+        <li>Braiding</li>
+      </ul>
+
+      <h3>Treatments & Specialized</h3>
+      <ul>
+        <li>Deep Conditioning</li>
+        <li>Keratin Treatments</li>
+        <li>Scalp Treatments</li>
+      </ul>
+
+      <h3>Extensions & Add-ons</h3>
+      <ul>
+        <li>Hair Extensions</li>
+        <li>Bang Trims</li>
+      </ul>
+
+      <h3>Additional Beauty</h3>
+      <ul>
+        <li>Waxing</li>
+        <li>Lash Extensions</li>
+        <li>Nail Services</li>
+      </ul>
+
+      <h3>Unique Ideas</h3>
+      <ul>
+        <li>Creative Hair Tattoos</li>
+        <li>Color Camo</li>
+      </ul>
+    </section>
+
+    <!-- Appointment Form -->
+    <section class="booking">
+      <h2>Book an Appointment</h2>
+      <form id="appointmentForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required>
+
+        <label for="service">Select Service:</label>
+        <select id="service" required>
+          <option value="">--Choose a Service--</option>
+          <option>Women’s Cut</option>
+          <option>Men’s Cut</option>
+          <option>Children’s Cut</option>
+          <option>Single Process Color</option>
+          <option>Highlights</option>
+          <option>Balayage / Ombre</option>
+          <option>Blowout</option>
+          <option>Updo</option>
+          <option>Braiding</option>
+          <option>Deep Conditioning</option>
+          <option>Keratin Treatment</option>
+          <option>Scalp Treatment</option>
+          <option>Extensions</option>
+          <option>Bang Trim</option>
+          <option>Waxing</option>
+          <option>Lash Extensions</option>
+          <option>Nail Services</option>
+          <option>Creative Hair Tattoo</option>
+          <option>Color Camo</option>
+        </select>
+
+        <label for="monthYear">Select Month & Year:</label>
+        <select id="monthYear" required>
+          <!-- Options yo pral ranpli ak JavaScript -->
+        </select>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" required>
+
+        <button type="submit">Book Now</button>
+      </form>
+      <p id="confirmation"></p>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> <a href="tel:965088708">965088708</a></p>
+      <p><strong>Address:</strong> Calzada de las Palmas 8, 30792 Tapachula de Córdova y Ordóñez, Chiapas</p>
+      <a href="tel:965088708" class="btn">📞 Call Now</a>
+      <a href="https://www.google.com/maps?q=Calzada+de+las+Palmas+8,+30792+Tapachula+de+Córdova+y+Ordóñez,+Chiapas" target="_blank" class="btn">📍 Get Directions</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Beauty & Hair Salon</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
